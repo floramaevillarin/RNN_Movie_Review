@@ -1,5 +1,7 @@
 # Sentiment Analysis Using Recurrent Neural Networks (RNN) with IMDB Dataset
 
+https://floramaevillarin-rnn-movie-review-app-0yy8fa.streamlit.app/
+
 ## Objective
 
 The objective of this assignment is to implement a Recurrent Neural Network (RNN) using TensorFlow to perform sentiment analysis on the IMDB movie review dataset. The goal is to train the RNN to classify movie reviews as positive or negative and analyze the model's performance.
