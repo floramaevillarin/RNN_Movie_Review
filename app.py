@@ -10,9 +10,11 @@ with open('tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
 
 # Constants
-MAX_LEN = 200  # Maximum length of sequences
+# Maximum length of sequences
+MAX_LEN = 200  
 
 def preprocess(text):
+    # Convert text to sequences
     sequences = tokenizer.texts_to_sequences([text])
     padded_sequence = pad_sequences(sequences, maxlen=MAX_LEN)
     return padded_sequence
